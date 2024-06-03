@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="hero"> 
+      <div class="container">
+        <div class="nav">
+            <p>MILKY</p>
+            <ul>
+                <li id="skills-link">Skills</li>
+                <li onclick="scrollToProjects()">Works</li>
+            </ul>
+        </div>
+
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        
+        <div class="header">
+          <div class="headerText">
+            <p>Menard Luis I. Caponpon</p>
+            <span>Aspiring Web Developer</span>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/menard.caponpon.7/" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/milkyy_zz/?hl=en" class="fa fa-instagram"></a>
+                <a href="mailto:menardcaponpon@gmail.com" class="fa fa-envelope"></a>
+            </div>
+          </div>
+          <img class="profileimg" src="1.jpg">
+        </div>
+      </div>
+
+      <content class="content">
+        <div class="content-header" id="skills">
+            <div class="skills-header">
+                <p class="skills-title">My Skills</p>
+                <div class="frontend-backend">
+                    <div class="frontend">
+                        <h3>FrontEnd Development</h3>
+                        <div class="frontend-icon">
+                        <img src="html.jpg" class="frontend-logo">
+                        <img src="css.png" class="frontend-logo">
+                        <img src="js.png"class="frontend-logo">
+                        <img src="vuee.png" class="frontend-logo">
+                        <img src="quasar.png" class="frontend-logo">
+                    </div>
+                    </div>
+                    <div class="vertical-line"></div>
+                    <div class="backend">
+                        <h3>BackEnd Development</h3>
+                        <div class="backend-icon">
+                            <img src="php.png" class="backend-logo">
+                            <img src="mysql.png" class="backend-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </content>
+
+      <div class="projects-container" id="projects">
+      <div class="projects">
+        <h1 class="projects-title">My Projects</h1>
+          <!-- Slider main container -->
+          <div class="swiper">
+          <!-- wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Todo List Project -->
+            <div class="swiper-slide">
+               <div class="todo">
+                  <h1>Todo List</h1>
+                  <div class="github-container">
+                   <div class="github-wrapper">
+                   <img src="todo.jpg" class="github-todo">
+                  </div>
+                </div>
+                <div class="desc">
+                <h3>Tech Used: VueJs, Quasar Framework</h3>
+                <h3>Description: A sytem where you can add, delete, update and complete todo list digitally</h3>
+                <div class="github-wrapper2">
+                <a href="https://github.com/milkyzz01/Todo-List/tree/menard-todo-list"><img src="github.png" class="github-logo"></a>
+                </div>
+              </div>
+               </div>
+            </div>
+
+            <!-- Grading system project -->
+            <div class="swiper-slide">
+              <div class="todo">
+                <h1>Grading System</h1>
+                <div class="github-container">
+                 <div class="github-wrapper">
+                 <img src="grading.png" class="github">
+                </div>
+              </div>
+              <div class="desc">
+              <h3>Tech Used: HTML, CSS, Javascript, mysql database and php</h3>
+              <h3>Description: A sytem where you can manage the enrolling and deleting students and input exams grades to calculate the final grades automatically</h3>
+              <div class="github-wrapper2">
+              <a href="https://github.com/milkyzz01/gradingsystem"><img src="github.png" class="github-logo"></a>
+              </div>
+            </div>
+             </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="todo">
+                <h1>Dormitory Management System</h1>
+                <div class="github-container">
+                 <div class="github-wrapper">
+                 <img src="dorm.png" class="github">
+                </div>
+              </div>
+              <div class="desc">
+              <h3>Tech Used: HTML, CSS, Javascript, php and mysql</h3>
+              <h3>Description: A sytem where you can manage the processes in a dormitory digitally</h3>
+              <div class="github-wrapper2">
+              <a href="https://github.com/milkyzz01/DormManagementSystem"><img src="github.png" class="github-logo"></a>
+              </div>
+            </div>
+             </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="todo">
+                <h1>ESP32 and IoT Devices</h1>
+                <div class="github-container">
+                 <div class="github-wrapper">
+                 <img src="iot.jpg" class="github">
+                </div>
+              </div>
+              <div class="desc">
+              <h3>Tech Used: Arduino IDE and C++</h3>
+              <h3>Description: A sytem where you can control Iot devices using a web interfaced</h3>
+              <div class="github-wrapper2">
+              <a href="https://github.com/milkyzz01/ESP32SYSTEM/tree/main"><img src="github.png" class="github-logo"></a>
+              </div>
+            </div>
+             </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+      </div><br><br><br><br>
+
+      <!-- footer -->
+    <footer>
+      <p>&copy; 2024 Menard Caponpon. All rights reserved. | Contact: <a href="tel:09694560912">0969-456-0912</a></p>
+    </footer>
+    </div>
+    
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+        
+</body>
+</html>
